@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-second">
+        <div class="flex-header container">
+            <div class="flex-header">
+                <h1>RealEstate</h1>
+                <nav class="menu">
+                    <a href="#">About us</a>
+                    <a href="#">Blog</a>
+                    <a href="/contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="contact-title">
+            <h2>Contact</h2>
+            <p>Fill the next information</p>
+        </div>
+        <form class="form-container">
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="input-container">
+                    <label>NAME:</label>
+                    <input type="text" placeholder="Type your name">
+                </div>
+                <div class="input-container">
+                    <label>EMAIL:</label>
+                    <input type="number" placeholder="Type your age">
+                </div>
+                <div class="input-container">
+                    <label>PHONE NUMBER:</label>
+                    <input type="tel" placeholder="Type your telephone number">
+                </div>
+                <div class="input-container">
+                    <label>MESSAGE:</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+        </form>
+
+        <form class="form-container">
+            <fieldset>
+                <legend>Product Information</legend>
+                <div class="type-title">
+                    <label>TYPE:</label>
+                </div>
+                <select class="select-container">
+                    <option value="option1">-- Select an option --</option>
+                    <option value="option2">-- Option 2 --</option>
+                    <option value="option3">-- Option 3 --</option>
+                </select>
+
+                <div class="input-container">
+                    <label>NUMBER:</label>
+                    <input type="tel" placeholder="Type your telephone number">
+                </div>
+            </fieldset>
+        </form>
+
+        <form class="form-container">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="input-container-inline">
+                    <label>PHONE:</label>
+                    <input type="radio" id="phone">
+                    <label>EMAIL:</label>
+                    <input type="radio" id="email">                   
+                </div>
+                <p>If you want to be contacted by phone, please select a day and hour:</p> 
+                <div class="input-container">
+                    <label>DATE:</label>
+                    <input type="date" placeholder="Type your telephone number">
+                </div>
+                <div class="input-container">
+                    <label>HOUR:</label>
+                    <input type="time" placeholder="Type your telephone number">
+                </div>
+            </fieldset>
+        </form>
+
+        <a href="#" class="contact-button">Send</a>
+    </main>
+</body>
+</html>
