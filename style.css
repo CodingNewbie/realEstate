@@ -406,6 +406,7 @@ fieldset p{
     display: flex;
     flex-direction: column;
     background-color: var(--background);
+    flex: 1;
 }
 
 .employee-card img{
@@ -420,6 +421,7 @@ fieldset p{
     justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
+    flex: 1;
 }
 
 .about-card-name{
