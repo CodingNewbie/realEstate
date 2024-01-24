@@ -349,6 +349,7 @@ fieldset p{
 }
 .sidebar-blog-post{
     display: flex;
+    align-items: center;
     height: 10rem;
     border-bottom: 1px solid grey;
     padding: 2rem;
