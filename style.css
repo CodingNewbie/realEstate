@@ -67,7 +67,7 @@ h2, h3{
 
 /* header */
 .site-init{
-    background-image: url(/img/header.jpg);
+    background-image: url(img/header.jpg);
     height: 40vh;
     background-size: cover;
     color: white;
